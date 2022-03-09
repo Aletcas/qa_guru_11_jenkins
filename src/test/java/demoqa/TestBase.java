@@ -29,7 +29,7 @@ public class TestBase {
         capabilities.setCapability("enableVideo", true);
         Configuration.browserCapabilities = capabilities;
     }
-/*
+
     @AfterEach
     void addAttachments() {
         Attach.screenshotAs("Last screenshot");
@@ -37,5 +37,5 @@ public class TestBase {
         Attach.browserConsoleLogs();
         Attach.addVideo();
         closeWebDriver();
-    } */
+    }
 }
